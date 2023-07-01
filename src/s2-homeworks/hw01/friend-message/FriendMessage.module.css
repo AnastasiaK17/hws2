@@ -1,0 +1,42 @@
+.friendMessage {
+  padding-top: 90px;
+}
+
+.friendImageAndText {
+    display: grid;
+    grid-template-areas: 'im t';
+    grid-template-columns: 60px 1fr ;
+}
+
+.friendImageAndText img {
+    height: 60px;
+    grid-area: im;
+}
+
+.friendText {
+    background-color: #f3f3f3 ;
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    font-size: 20px;
+    border-radius: 8px;
+    grid-area: t;
+    padding: 7px;
+}
+
+.friendText:after {
+
+}
+
+.friendName {
+    font-weight: bold;
+}
+
+.friendMessageText {
+
+}
+
+.friendTime {
+    font-size: 10px;
+    font-weight: bold;
+}

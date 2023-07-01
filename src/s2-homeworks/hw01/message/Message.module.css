@@ -1,0 +1,44 @@
+.message {
+    float:right;
+
+}
+
+.imageAndText {
+    display: grid;
+    grid-template-areas: 't im';
+    grid-template-columns: 1fr 60px;
+
+}
+
+.imageAndText img {
+  height: 60px;
+    grid-area: im;
+}
+
+.text {
+    background-color: #0066cc;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    grid-area: t;
+    padding: 7px;
+}
+
+.text:after {
+
+}
+
+.name {
+    font-weight: bold;
+}
+
+.messageText {
+
+}
+
+.time {
+   font-size: 10px;
+    font-weight: bold;
+}
