@@ -36,11 +36,11 @@ const defaultAffairs:AffairType[] = [ // need to fix any
 
 // pure helper functions
 export const filterAffairs = (affairs: AffairType[], filter: FilterType): AffairType[] => { // need to fix any
-   let filteredAffairs = affairs
+
     if (filter==='all') {
-        return filteredAffairs
+        return affairs
     }
-    return filteredAffairs = affairs.filter( el => el.priority === filter)
+    return affairs.filter(el => el.priority === filter)
 
 
 }
