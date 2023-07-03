@@ -17,7 +17,7 @@ import s2 from '../../s1-main/App.module.css'
 * */
 
 // types
-export type AffairPriorityType = 'high' | 'middle' | 'low'
+export type AffairPriorityType = 'low' | 'high' | 'middle'
 export type AffairType = {
     _id: number
     name: string
