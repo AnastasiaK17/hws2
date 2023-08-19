@@ -1,7 +1,13 @@
 .input:focus {
+    outline: none;
 }
 
 .input {
+    height: 30px;
+    width: 200px;
+    border: 2px solid #a6c1fe;
+    border-radius: 4px;
+    margin-left: 40px;
 }
 
 .inputWrapper {
@@ -18,4 +24,5 @@
 }
 
 .error {
+    color: #cc0000;
 }
