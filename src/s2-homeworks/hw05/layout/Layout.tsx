@@ -4,7 +4,7 @@ import { Sidebar } from '../sidebar/Sidebar'
 
 type PropsType = {
     children: ReactNode
-}
+} 
 
 export const Layout: FC<PropsType> = ({ children }) => {
     const [open, setOpen] = useState(false)

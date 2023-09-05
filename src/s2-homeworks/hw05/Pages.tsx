@@ -4,6 +4,7 @@ import Error404 from './pages/Error404'
 import PreJunior from './pages/PreJunior'
 import Junior from './pages/Junior'
 import JuniorPlus from './pages/JuniorPlus'
+import { Switch } from '@mui/material'
 
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
@@ -18,7 +19,7 @@ function Pages() {
             <Routes>
                 {/*роутинг будут писать студенты*/}
                 {/*в начале мы попадаем на страницу '/' и переходим сразу на страницу /pre-junior*/}
-                <Route path ={'/'} element={<Navigate to={'/pre-junior'}/>}/>
+                <Route path ={'/'} element={<Navigate to={PATH.PRE_JUNIOR}/>}/>
 
                 {/*роуты для /pre-junior, /junior, /junior-plus*/}
                 <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>}/>
