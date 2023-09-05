@@ -1,23 +1,38 @@
 .sidebar {
+    background-color:thistle;
+    width: 280px;
+    transition-duration: 500ms;
+    transform: translate(-275px)
 }
 
 .sidebar.open {
+    transition-duration: 500ms;
+    transform: translate(0px)
 }
 
 .background {
+
 }
 
 .nav {
+    
+    
 }
 
 .nav a {
+    color:lightseagreen;
+    margin-left: 20px
 }
 
 .nav a:hover {
 }
 
 .nav a.active {
+    color:coral;
 }
+
+
+
 .close {
 }
 

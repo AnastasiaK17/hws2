@@ -5,7 +5,7 @@ import {useLocation} from 'react-router-dom'
 import {PATH} from '../Pages'
 
 type PropsType = {
-    handleOpen: () => void
+    handleOpen: () => void 
 }
 
 export const Header: FC<PropsType> = ({handleOpen}) => {
