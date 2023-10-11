@@ -33,10 +33,10 @@ function Clock() {
     }
 
     const seconds = date.getSeconds()
-    const day = date.getDay() 
-    const month = date.getMonth()
+    const minutes = date.getMinutes()
+   
 
-    const stringTime = `${date.getHours()}:${date.getMinutes()}:${seconds > 10 ? seconds : `0${seconds}`}` || <br/> // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
+    const stringTime = `${date.getHours()}:${minutes > 10 ? minutes : `0${minutes}`}:${seconds > 10 ? seconds : `0${seconds}`}` || <br/> // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
     const stringDate = date.toLocaleDateString() || <br/> // день.месяц.год (01.02.2022) // пишут студенты, варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
 
 
