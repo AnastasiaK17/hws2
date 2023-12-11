@@ -37,7 +37,6 @@ const HW14 = () => {
                 // делает студент
                 // сохранить пришедшие данные
                 if (res) {
-                    debugger;
              setTechs(res.data.techs)
                 }
                 //
@@ -50,7 +49,7 @@ const HW14 = () => {
         // делает студент
         // добавить/заменить значение в квери урла
         // setSearchParams( 
-            setSearchParams(value) 
+            setSearchParams(find) 
 
         //
     }
