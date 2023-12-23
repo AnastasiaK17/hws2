@@ -93,8 +93,8 @@ const HW15 = () => {
 
         // sendQuery(
         // setSearchParams(
-            sendQuery({sort})
-            setSearchParams({sort})
+            sendQuery({sort: newSort})
+            setSearchParams({sort: newSort})
 
         //
     }
