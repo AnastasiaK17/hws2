@@ -7,5 +7,9 @@
 }
 
 .hwTitle {
-
+  color:dimgray;
+  font-family: cursive;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 30px;
 }
