@@ -74,8 +74,8 @@ const HW15 = () => {
 
         // sendQuery(
         // setSearchParams(
-        sendQuery({page: newPage, count: newCount})
-        setSearchParams({page:`${newPage}`,count:`${newCount}`})
+        sendQuery({page: newPage, count: newCount, sort: sort})
+        setSearchParams({page:`${newPage}`,count:`${newCount}`, sort: sort})
 
        
 
@@ -93,8 +93,8 @@ const HW15 = () => {
 
         // sendQuery(
         // setSearchParams(
-            sendQuery({sort: newSort})
-            setSearchParams({sort: newSort})
+            sendQuery({sort: newSort, count:`${count}`})
+            setSearchParams({sort: newSort, count:`${count}`})
 
         //
     }
